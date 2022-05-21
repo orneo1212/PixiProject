@@ -24,7 +24,7 @@ class Engine {
             width: params.canvasW,
             height: params.canvasH,
             antialias: true
-        });
+        }) as PIXI.Renderer;
         this.stage = new PIXI.Container();
         this.graphics = new PIXI.Graphics();
         this.fpsMax = params.fpsMax;
