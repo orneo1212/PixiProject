@@ -24,11 +24,11 @@ const config = {
     },
     plugins: [
         new CleanWebpackPlugin(),
-        new CopyPlugin([
+        new CopyPlugin({patterns: [
             { from: 'src/index.html' },
             { from: 'src/css/style.css', to: 'css/' },
             { from: 'src/images/logo.png', to: 'images/' },
-        ]),
+        ]}),
     ],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
