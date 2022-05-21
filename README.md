@@ -1,6 +1,6 @@
 # Pixi.js Project #
 
-A generic frontend **Pixi.js** project boiler plate in **TypeScript** using **Webpack**.
+A generic frontend **Pixi.js v6** project boiler plate in **TypeScript** using **Webpack**.
 
 Main features:
 
