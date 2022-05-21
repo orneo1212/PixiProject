@@ -19,14 +19,23 @@ Main dependencies:
 * **Pixi.js**: [Pixi.js](http://www.pixijs.com/)
 
 
+## Versions ##
+
+* **Pixi.js**: 6.3.2
+* **Webpack**: 5.72.1
+* **Mocha**: 8.0.0
+* **Typescript** 4.6.4
+
 ## Installation ##
 
 Node, TypeScript and TSLint should be installed globally.
 
+You can replace `yarn` with `npm` if you prefer npm.
+
 	$> git clone https://github.com/yahiko00/PixiProject.git <new folder>
 	$> cd <new folder>
 	$> git init
-	$> npm install
+	$> yarn install
 
 
 ## Build ##
@@ -35,18 +44,19 @@ Commands should be run under a **bash** shell.
 
 The following command builds and run the project in development mode with Hot Reload.
 
-	$> npm run serve
+	$> yarn run serve
 
 The following command builds the project in production mode.
 
-	$> npm run build
+	$> yarn run build
 
 
 For more predefined commands, see `package.json`, item `scripts`.
 
 ## Contributors ##
 
-yahiko
+* orneo1212
+* yahiko
 
 
 ## Licence ##
